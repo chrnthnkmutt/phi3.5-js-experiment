@@ -2,6 +2,18 @@
 
 Created by Charunthon Limseelo. Supervised by Microsoft Thailand
 
+## Main Contribution
+- Charunthon Limseelo, Microsoft Learn Student Ambassador
+- Chai Chaoweeraprasit, F1 Engineer, Microsoft
+- Vasupon Thankakan, COO, Microsoft Thailand
+- Supasate Vorathammathorn, Microsoft Learn Student Ambassador
+- Soravit Satechaichan, Microsoft Learn Student Ambassador
+
+## Advisor and Supporter
+- Tatta Tameeyonk
+- Pancheva Niruttikul
+- Poonyada Phanitpotchamarn
+
 Hi everyone, my name is Boat Charunthon. Welcome to my repository on experimenting Phi3.5 locally with JavaScript and Ollama. In this repository, I will guide you through all installation for running AI on your local device with no internet connection at all.
 
 ## What do you need to know about Phi3.5
@@ -27,7 +39,16 @@ Phi-3.5-mini is a lightweight, state-of-the-art open model built upon datasets u
 powershell -c "irm bun.sh/install.ps1|iex"
 ```
 
+```powershell
+npm install -g bun
+```
+
 - Ollama: Visit [https://ollama.com/](https://ollama.com/) for installing Ollama in your operating system. If you need to run on the shell, please run it. Ollama is an application that stores AI models in your device. But kindly remind you guys that I prefer to run with ‘small language models’ only for fast running performance and due to the insufficient resource on running large language models. If you want to run LLMs, please by a high specification device to run.
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
 - Phi3.5 on ollama by running in your shell with the command as below.
 
 ```powershell
@@ -42,6 +63,29 @@ Small language model is the small version of large language model that really ea
 
 ## To run this repository:
 
-I would like to recommend you guys that you might need to folk or download this git repository from me, not push into my master/main channel without my permission. If you want to make some changes on my coding, please make a request first. 
+I would like to recommend you guys that you might need to folk or download this git repository from me, not push into my master/main channel without my permission. If you want to make some changes on my coding, please make a request first. This repository will contain the example of running JavaScript and Ollama on running locally, which includes:
+
+1. Text Generation
+2. Chat Completion
+3. JSON Syntax
+4. Streaming Generation
+5. Classifier
+6. Summarizer
+7. (Coming Soon) RAG - Retreival Augmented Generation with .txt file
+
+First, please install all necessary modules/packages for this JavaScript Project in your new folder.
+
+```powershell
+bun add ollama
+```
+
+```powershell
+bun add openai
+```
+To run each file, please use the following command line in the terminal:
+
+```powershell
+bun <filename>
+```
 
 (I will be writing this README for more information)
