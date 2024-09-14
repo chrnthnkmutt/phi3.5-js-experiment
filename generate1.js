@@ -4,4 +4,3 @@ const output = await ollama.generate({
     prompt: 'What is two plus five?'
 })
 console.log(output.response)
-
