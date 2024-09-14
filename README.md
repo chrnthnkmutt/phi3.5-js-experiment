@@ -1,5 +1,3 @@
-# README_ollama_js
-
 # Experimenting Phi3.5 with JavaScript and Ollama on Local Device
 
 Created by Charunthon Limseelo. Supervised by Microsoft Thailand
@@ -40,7 +38,7 @@ ollama run phi3.5
 
 ![image.png](image.png)
 
-Small language model is the small version of large language model that really easy to contain on your local devices. The technique of minizing the bit size of large language model is called ‘quantization’ which changing the bit size of the dataset to be small, yet changing to the model file called ‘.gguf’ for loading on your device. However, running small language models isn’t powerful much like large language models, but if you try to finetune or run with RAG (Retrieval Augmented Generation), wyou may get more accuracy and more efficient than LLMs, even on lower power consumption, reduce carbon emission, yet reduce your cost on paying GPT services.
+Small language model is the small version of large language model that really easy to contain on your local devices. The technique of minizing the bit size of large language model is called ‘quantization’ which changing the bit size of the dataset to be small, yet changing to the model file called ‘.gguf’ for loading on your device. However, running small language models isn’t powerful much like large language models, but if you try to finetune or run with RAG (Retrieval Augmented Generation), you may get more accuracy and more efficient than LLMs, even on lower power consumption, reduce carbon emission, yet reduce your cost on paying GPT services.
 
 ## To run this repository:
 
