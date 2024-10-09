@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 const completion = await openai.completions.create({
-  model: "phi3.5",
+  model: "gemma2:2b",
   prompt: "Say hello in French: ",
 });
 
