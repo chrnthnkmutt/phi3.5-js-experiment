@@ -22,7 +22,7 @@ const systemPrompt = `You are a data extraction tool that extracts structured JS
 const input = `Cet exemple est pas trop mal!`;
 
 const result = await openai.chat.completions.create({
-  model: "phi3",
+  model: "phi3.5",
   messages: [
     { role: "system", content: systemPrompt },
     { role: "user", content: input },

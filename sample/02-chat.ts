@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 const chatCompletion = await openai.chat.completions.create({
-    model: "phi3",
+    model: "phi3.5",
     messages: [{ role: "system", content: "Say Hello!" }],
 });
 

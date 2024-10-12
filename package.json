@@ -1,1 +1,1 @@
-{ "dependencies": { "ollama": "^0.5.9", "openai": "^4.61.0" }, "name": "phi3", "version": "1.0.0", "description": "small l", "main": "generate1.js", "scripts": { "test": "echo \"Error: no test specified\" && exit 1" }, "keywords": ["phi3"], "author": "BOat", "license": "MIT" }
+{ "dependencies": { "fs": "^0.0.1-security", "ollama": "^0.5.9", "openai": "^4.61.0" }, "name": "phi3", "version": "1.0.0", "description": "small l", "main": "generate1.js", "scripts": { "test": "echo \"Error: no test specified\" && exit 1" }, "keywords": ["phi3"], "author": "BOat", "license": "MIT" }

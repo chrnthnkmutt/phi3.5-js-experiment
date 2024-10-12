@@ -17,7 +17,7 @@ const openai = new OpenAI({
 });  
 
 const result = await openai.chat.completions.create({
-  model: "phi3",
+  model: "phi3.5",
   messages: [
     { role: "system", content: systemPrompt },
     { role: "user", content: text },
